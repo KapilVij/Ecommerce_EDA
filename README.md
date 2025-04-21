@@ -84,6 +84,22 @@ This project spans several core dimensions of the e-commerce pipeline:
 - Avoided flattening the data unnecessarily to retain scalability and focus
 
 ---
+# Hypothesis Testing 
+
+- **Goal**: To determine if late deliveries are associated with poor customer reviews.
+- **Hypothesis:**
+    - **Null Hypothesis (Ho)**: Late delivery does not increase poor reviews.
+    - **Alternative Hypothesis (H1)**: Late delivery increases poor reviews.
+
+## Z-Test Results
+- **Z-statistic**: 92.30  
+- **P-value**: ~0.0000
+
+### Interpretation
+- **Evidence**: The low p-value and high Z-score strongly indicate a link between late deliveries and poor reviews.
+- **Business Insight**: Improving on-time delivery can significantly boost customer satisfaction.
+
+---
 
 ## Basic - Shipping Cost Prediction Model
 
